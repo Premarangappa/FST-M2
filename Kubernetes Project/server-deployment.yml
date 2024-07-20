@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: haritha/complex_api
+          image: prema/complex_api
           resources:
                   limits:
                     memory: "128Mi"
