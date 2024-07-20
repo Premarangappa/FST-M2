@@ -20,7 +20,7 @@
 
     - name: Copy application files
       ansible.builtin.copy:
-        src: C:\Users\003ZCJ744\Desktop\Haritha\Full Stack Tester\Module 2\BigData\sourceFile
+        src: C:\Users\003ZCJ744\Desktop\Prema\Full Stack Tester\Module 2\BigData\sourceFile
         dest: /var/www/html/
         owner: apache
         group: apache
