@@ -1,4 +1,4 @@
-df = spark.read.option("multiline", "true").json("C:\Users\003ZCJ744\Desktop\haritha\Full Stack Tester\Module 2\BigData\jsonInput.json")
+df = spark.read.option("multiline", "true").json("C:\Users\003ZCJ744\Desktop\prema\Full Stack Tester\Module 2\BigData\jsonInput.json")
 # Read the JSON file
 df = spark.read.json("input.json")
 
