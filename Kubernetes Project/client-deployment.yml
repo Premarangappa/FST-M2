@@ -16,7 +16,7 @@ spec:
     spec:
         containers:
             - name: client-deployment
-              image: haritha/complex_client #:v1
+              image: prema/complex_client #:v1
               resources:
                   limits:
                     memory: "128Mi"
