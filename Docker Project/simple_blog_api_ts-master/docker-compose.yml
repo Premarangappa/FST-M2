@@ -11,7 +11,7 @@ services:
         build:
           context: ./
           dockerfile: Dockerfile
-        image: "haritha/api1" 
+        image: "prema/api1" 
         ports:
           - "3000:3000"
         environment:
